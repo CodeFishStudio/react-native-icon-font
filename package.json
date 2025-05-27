@@ -1,0 +1,31 @@
+{
+    "name": "react-native-icon-font",
+    "version": "1.0.0",
+    "description": "Generate icon fonts from SVG icons for React Native projects",
+    "main": "dist/index.js",
+    "types": "dist/index.d.ts",
+    "bin": {
+        "compile-icons": "dist/index.js"
+    },
+    "files": [
+        "dist",
+        "README.md"
+    ],
+    "scripts": {
+        "build": "tsc",
+        "prepublishOnly": "npm run build",
+        "dev": "tsc --watch"
+    },
+    "private": true,
+    "dependencies": {},
+    "devDependencies": {
+        "@types/svg2ttf": "^5.0.3",
+        "prettier": "^3.5.3",
+        "typescript": "^5.8.3"
+    },
+    "peerDependencies": {
+        "fix-path-directions": "^1.0.3",
+        "svg2ttf": "^6.0.3",
+        "svgicons2svgfont": "^15.0.1"
+    }
+}

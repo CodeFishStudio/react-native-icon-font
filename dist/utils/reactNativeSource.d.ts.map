@@ -1,0 +1,1 @@
+{"version":3,"file":"reactNativeSource.d.ts","sourceRoot":"","sources":["../../src/utils/reactNativeSource.ts"],"names":[],"mappings":"AAAA,eAAO,MAAM,iBAAiB,GAAI,QAAQ;IACtC,QAAQ,EAAE,MAAM,CAAC;IACjB,aAAa,EAAE,MAAM,CAAC;IACtB,QAAQ,EAAE,MAAM,CAAC;IACjB,OAAO,EAAE,GAAG,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;CAChC,WAkCA,CAAC"}

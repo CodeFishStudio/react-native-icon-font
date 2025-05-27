@@ -1,0 +1,1 @@
+{"version":3,"file":"createReactNativeComponent.d.ts","sourceRoot":"","sources":["../../src/utils/createReactNativeComponent.ts"],"names":[],"mappings":"AASA,wBAAsB,0BAA0B,CAAC,MAAM,EAAE;IACrD,SAAS,EAAE,MAAM,CAAC;IAClB,aAAa,EAAE,MAAM,CAAC,MAAM,EAAE,MAAM,CAAC,CAAC;IACtC,eAAe,EAAE,MAAM,CAAC;IACxB,QAAQ,EAAE,MAAM,CAAC;IACjB,aAAa,EAAE,MAAM,CAAC;IACtB,QAAQ,EAAE,MAAM,CAAC;CACpB,iBAmDA"}
