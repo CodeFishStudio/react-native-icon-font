@@ -1,6 +1,6 @@
 {
     "name": "react-native-icon-font",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Generate icon fonts from SVG icons for React Native projects",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
