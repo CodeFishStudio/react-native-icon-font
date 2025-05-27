@@ -12,9 +12,12 @@
         "README.md"
     ],
     "scripts": {
-        "build": "tsc",
+        "build": "rm -rf dist && tsc",
         "prepublishOnly": "npm run build",
-        "dev": "tsc --watch"
+        "dev": "tsc --watch",
+        "release:patch": "npm version patch",
+        "release:minor": "npm version minor",
+        "release:major": "npm version major"
     },
     "private": true,
     "dependencies": {},

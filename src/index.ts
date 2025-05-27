@@ -1,1 +1,1 @@
-export { compileIcons } from './compileIcons';
+export { compileIconFont } from './compileIconFont';

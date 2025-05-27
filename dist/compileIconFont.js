@@ -3,14 +3,14 @@ var __importDefault = (this && this.__importDefault) || function (mod) {
     return (mod && mod.__esModule) ? mod : { "default": mod };
 };
 Object.defineProperty(exports, "__esModule", { value: true });
-exports.compileIcons = void 0;
+exports.compileIconFont = void 0;
 const promises_1 = __importDefault(require("fs/promises"));
 const node_path_1 = __importDefault(require("node:path"));
 const createReactNativeComponent_1 = require("./utils/createReactNativeComponent");
 const createSvgFont_1 = require("./utils/createSvgFont");
 const createTTF_1 = require("./utils/createTTF");
-const compileIcons = async (newOptions) => {
-    const { svgSource, fontOutput, componentOutput, fontName, componentName, iconSize } = newOptions;
+const compileIconFont = async (options) => {
+    const { svgSource, fontOutput, componentOutput, fontName, componentName, iconSize } = options;
     try {
         const fontOutputDirectory = node_path_1.default.resolve(process.cwd(), fontOutput);
         // Ensures the font output directory exists
@@ -51,5 +51,5 @@ const compileIcons = async (newOptions) => {
         console.error(error);
     }
 };
-exports.compileIcons = compileIcons;
-//# sourceMappingURL=compileIcons.js.map
+exports.compileIconFont = compileIconFont;
+//# sourceMappingURL=compileIconFont.js.map

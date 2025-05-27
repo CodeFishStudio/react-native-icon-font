@@ -1,4 +1,4 @@
-export type Options = {
+export type CompileIconFontOptions = {
     svgSource: string;
     fontOutput: string;
     componentOutput: string;

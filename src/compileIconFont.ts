@@ -1,14 +1,13 @@
 import fs from 'fs/promises';
 import path from 'node:path';
 
-import { Options } from './types';
+import { CompileIconFontOptions } from './types';
 import { createReactNativeComponent } from './utils/createReactNativeComponent';
 import { createSvgFont } from './utils/createSvgFont';
 import { createTTF } from './utils/createTTF';
 
-export const compileIcons = async (newOptions: Options) => {
-    const { svgSource, fontOutput, componentOutput, fontName, componentName, iconSize } =
-        newOptions;
+export const compileIconFont = async (options: CompileIconFontOptions) => {
+    const { svgSource, fontOutput, componentOutput, fontName, componentName, iconSize } = options;
 
     try {
         const fontOutputDirectory = path.resolve(process.cwd(), fontOutput);

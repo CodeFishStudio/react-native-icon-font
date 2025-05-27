@@ -1,2 +1,2 @@
-export { compileIcons } from './compileIcons';
+export { compileIconFont } from './compileIconFont';
 //# sourceMappingURL=index.d.ts.map
