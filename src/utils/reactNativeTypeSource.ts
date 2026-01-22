@@ -2,7 +2,7 @@ export const reactNativeTypeSource = (params: { componentName: string }) => {
     const { componentName } = params;
 
     return `import { StyleProp, TextProps, TextStyle } from 'react-native';
- import { iconMap } from './IconText';
+ import { iconMap } from './${componentName}';
 
  export type IconType = keyof typeof iconMap;
 

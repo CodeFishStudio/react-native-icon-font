@@ -4,9 +4,6 @@
     "description": "Generate icon fonts from SVG icons for React Native projects",
     "main": "dist/index.js",
     "types": "dist/index.d.ts",
-    "bin": {
-        "compile-icons": "dist/index.js"
-    },
     "files": [
         "dist",
         "README.md"
